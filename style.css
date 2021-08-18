@@ -1,11 +1,19 @@
+*{ /*RESET*/
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+}
+
 body {
-  font-family: 'Roboto Mono',monospace;
-  min-height: 400px;
-  background-image: url('https://www.fundospaisagens.com/1920x1080/wallpaper-de-uma-galaxia.jpg');
-  background-color: #000000;
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+    background-image: url('https://www.fundospaisagens.com/1920x1080/wallpaper-de-uma-galaxia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+    display: flex;
+    flex-direction: column;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .container {
@@ -28,21 +36,14 @@ body {
   width: 200px;
 }
 
-.alura-logo {
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  right:10px;
-}
-
   .form-wrapper {
-    margin: 0 0 15px;
+    margin: 0px 0 15px;
   }
-  
+
   .form-wrapper input {
     display: block;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 10px 30px;
     text-align: center;
   }
   
@@ -53,7 +54,7 @@ body {
     font-weight:bold;
     padding: 15px 20px;
     font-size: 16px;
-    borde-radius: 4px;
+    border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;
